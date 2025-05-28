@@ -1,16 +1,14 @@
-# This is a sample Python script.
+import sys
+from PySide6.QtWidgets import QApplication
+from interface.main_window import MainWindow
+from database.engine import init_db
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+if __name__ == "__main__":
+    # Inicializa o banco de dados
+    init_db()
 
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    # Inicializa a aplicação
+    app = QApplication(sys.argv)
+    window = MainWindow()
+    window.show()
+    sys.exit(app.exec())
