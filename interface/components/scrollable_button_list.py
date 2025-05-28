@@ -23,7 +23,8 @@ class ScrollableButtonList(QWidget):
                 border-radius: 6px;
             """)
             btn.setSizePolicy(QSizePolicy.Expanding, QSizePolicy.Fixed)
-            btn.clicked.connect(lambda checked, nome=item: on_click(nome))
+            # A função lambda agora aceita o argumento `checked`
+            btn.clicked.connect(lambda checked=False, nome=item: on_click(nome))
             content_layout.addWidget(btn)
 
         content_widget.setLayout(content_layout)

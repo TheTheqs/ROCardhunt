@@ -8,33 +8,40 @@ from database.models.contagem import Contagem
 
 
 class RetomarContagemScreen(QWidget):
-    def __init__(self, navegar_callback):
+    def __init__(self, navegar_callback, set_contagem_callback):
         super().__init__()
         self.navegar = navegar_callback
+        self.set_contagem_id = set_contagem_callback
 
-        layout = QVBoxLayout()
-        layout.setSpacing(15)
+        self.layout_principal = QVBoxLayout()
+        self.layout_principal.setSpacing(15)
 
-        layout.addWidget(BackButton(lambda: self.navegar("home")))
-        layout.addWidget(Title("♻️ Retomar Contagem"))
+        self.layout_principal.addWidget(BackButton(lambda: self.navegar("home")))
+        self.layout_principal.addWidget(Title("♻️ Retomar Contagem"))
 
         self.btn_list = ScrollableButtonList([], self.handle_retomar)
-        layout.addWidget(self.btn_list)
+        self.layout_principal.addWidget(self.btn_list)
 
-        self.setLayout(layout)
-        self.carregar_contagens()
+        self.setLayout(self.layout_principal)
 
-    def carregar_contagens(self):
+        self.atualizar()
+
+    def atualizar(self):
         session = SessionLocal()
         contagens = session.query(Contagem).all()
-        nomes = [f"{c.mob} (#{c.id})" for c in contagens]
         session.close()
 
-        # Recria o componente com os dados
-        self.btn_list.setParent(None)
-        self.btn_list = ScrollableButtonList(nomes, self.handle_retomar)
-        self.layout().addWidget(self.btn_list)
+        nomes = [f"{c.mob} (#{c.id})" for c in contagens]
 
-    def handle_retomar(self, nome):
-        QMessageBox.information(self, "Placeholder", f"Você escolheu: {nome}")
-        # self.navegar("count_screen", id_contagem)
+        # Atualiza lista de botões
+        self.layout_principal.removeWidget(self.btn_list)
+        self.btn_list.deleteLater()
+        self.btn_list = ScrollableButtonList(nomes, self.handle_retomar)
+        self.layout_principal.addWidget(self.btn_list)
+
+    def handle_retomar(self, label: str):
+        try:
+            id_str = label.split("#")[1].replace(")", "").strip()
+            self.set_contagem_id(int(id_str))
+        except Exception:
+            QMessageBox.warning(self, "Erro", "Não foi possível identificar o ID.")

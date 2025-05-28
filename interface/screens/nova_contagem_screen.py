@@ -9,9 +9,10 @@ from database.models.contagem import Contagem
 
 
 class NovaContagemScreen(QWidget):
-    def __init__(self, navegar_callback):
+    def __init__(self, navegar_callback, set_contagem_callback):
         super().__init__()
         self.navegar = navegar_callback
+        self.set_contagem_id = set_contagem_callback
 
         layout = QVBoxLayout()
         layout.setSpacing(15)
@@ -39,7 +40,8 @@ class NovaContagemScreen(QWidget):
         nova = Contagem(mob=nome)
         session.add(nova)
         session.commit()
-        session.close()
+        session.refresh(nova)
+        self.set_contagem_id(nova.id)
 
         QMessageBox.information(self, "Sucesso", f"Contagem criada para '{nome}'!")
-        self.navegar("home")
+        self.set_contagem_id(nova.id)
