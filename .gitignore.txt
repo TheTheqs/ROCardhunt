@@ -1,0 +1,29 @@
+# ⛔ Virtualenv
+venv/
+.env/
+
+# 🧠 Cache e arquivos compilados
+__pycache__/
+*.py[cod]
+*.pyo
+
+# 🔒 Arquivos de configuração locais
+*.log
+*.db
+*.sqlite3
+
+# 📦 Dados do banco (você mencionou que 'data/' não será versionado)
+data/
+
+# 💻 PyInstaller (para gerar executáveis .exe)
+*.spec
+dist/
+build/
+
+# 📄 IDEs (VSCode, PyCharm etc.)
+.vscode/
+.idea/
+
+# 🗑️ Arquivos de sistema
+.DS_Store
+Thumbs.db
