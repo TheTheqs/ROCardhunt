@@ -11,6 +11,7 @@ class MarcoCard(QWidget):
 
         label_id = QLabel(f"ID: {marco.id}")
         label_mob = QLabel(f"Mob: {marco.mob}")
+        label_item = QLabel(f"Item: {marco.item}")
         label_count = QLabel(f"Mortes até o drop: {marco.count}")
 
         data_inicio = marco.timestamp_inicio.strftime('%d/%m/%Y %H:%M:%S')
@@ -35,6 +36,7 @@ class MarcoCard(QWidget):
 
         layout.addWidget(label_id)
         layout.addWidget(label_mob)
+        layout.addWidget(label_item)
         layout.addWidget(label_count)
         layout.addWidget(label_inicio)
         layout.addWidget(label_fim)

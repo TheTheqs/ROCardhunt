@@ -20,8 +20,11 @@ class NovaContagemScreen(QWidget):
         layout.addWidget(BackButton(lambda: self.navegar("home")))
         layout.addWidget(Title("🆕 Nova Contagem"))
 
-        self.input_mob = TextInput("Nome do monstro", "Ex: Hunter Fly")
+        self.input_mob = TextInput("Nome do monstro", "Ex: Mosca Caçadora")
         layout.addWidget(self.input_mob)
+
+        self.input_item = TextInput("Item buscado", "Ex: Carta Mosca Caçadora")
+        layout.addWidget(self.input_item)
 
         self.btn_criar = CustomButton("✅ Iniciar Contagem", self.salvar_contagem)
         layout.addWidget(self.btn_criar)
@@ -31,13 +34,14 @@ class NovaContagemScreen(QWidget):
 
     def salvar_contagem(self):
         nome = self.input_mob.get_text().strip()
+        item = self.input_item.get_text().strip()
 
         if not nome:
             QMessageBox.warning(self, "Erro", "Digite o nome do monstro.")
             return
 
         session = SessionLocal()
-        nova = Contagem(mob=nome)
+        nova = Contagem(mob=nome, item=item)
         session.add(nova)
         session.commit()
         session.refresh(nova)

@@ -12,6 +12,7 @@ class ContagemCard(QWidget):
 
         label_id = QLabel(f"ID: {contagem.id}")
         label_mob = QLabel(f"Mob: {contagem.mob}")
+        label_item = QLabel(f"Item: {contagem.item}")
         label_count = QLabel(f"Mortes: {contagem.count}")
         label_data = QLabel(f"Criado em: {contagem.timestamp.strftime('%d/%m/%Y %H:%M:%S')}")
 
@@ -20,6 +21,7 @@ class ContagemCard(QWidget):
 
         layout.addWidget(label_id)
         layout.addWidget(label_mob)
+        layout.addWidget(label_item)
         layout.addWidget(label_count)
         layout.addWidget(label_data)
 

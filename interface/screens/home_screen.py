@@ -13,8 +13,9 @@ class HomeScreen(QWidget):
         layout.setAlignment(Qt.AlignmentFlag.AlignTop)
 
         title = Title("🎯 BEM-VINDO AO Matheqs CardHunt!")
-        subtitle = Title("🛠️ Versão 1.0")
+        subtitle = Title("🛠️ Versão 1.1")
         layout.addWidget(title)
+        layout.addWidget(subtitle)
 
         # Botões com callbacks placeholders (você conecta depois)
         btn_nova = CustomButton("📥 Nova Contagem", lambda: self.navegar("nova_contagem"))

@@ -8,5 +8,6 @@ class Contagem(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     mob = Column(String, nullable=False)
+    item = Column(String)
     count = Column(Integer, default=0)
     timestamp = Column(DateTime, default=datetime.utcnow)

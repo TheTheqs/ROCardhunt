@@ -1,6 +1,5 @@
 from PySide6.QtWidgets import QWidget, QVBoxLayout, QLabel, QMessageBox
 from interface.components.title import Title
-from datetime import datetime
 import os
 from interface.components.custom_button import CustomButton
 from interface.components.img import Img
@@ -36,9 +35,6 @@ class ContagemScreen(QWidget):
 
         btn_marco = CustomButton("🏁 Criar Marco", self.criar_marco)
         layout.addWidget(btn_marco)
-
-        btn_diminuir = CustomButton("➖ Diminuir", self.diminuir)
-        layout.addWidget(btn_diminuir)
 
         layout.addWidget(QLabel("🖱️ Aperte F1 para aumentar a contagem."))
 
@@ -88,22 +84,6 @@ class ContagemScreen(QWidget):
         finally:
             session.close()
 
-    def diminuir(self):
-        if self.valor > 0:
-            self.valor -= 1
-            self.counter_display.set_valor(self.valor)
-
-            # Persistência no banco
-            from database.engine import SessionLocal
-            session = SessionLocal()
-            try:
-                contagem_db = session.query(Contagem).filter_by(id=self.contagem.id).first()
-                if contagem_db:
-                    contagem_db.count = self.contagem.count
-                    session.commit()
-            finally:
-                session.close()
-
     def criar_marco(self):
         from database.models.marco import Marco
         from database.models.contagem import Contagem
@@ -113,12 +93,13 @@ class ContagemScreen(QWidget):
         try:
             # Armazena o valor atual ANTES de zerar
             valor_atual = self.valor
-
+            valor_display = 0
             # Cria o novo marco com o valor atual
-            marco = Marco(mob=self.contagem.mob, count=valor_atual)
-            print(valor_atual)
-            marco.timestamp_fim = datetime.utcnow()
-            session.add(marco)
+            if self.contagem is not None:
+                marco = Marco.create(self=Marco(), contagem=self.contagem)
+                session.add(marco)
+                valor_display = marco.count
+                session.commit()
 
             # Reseta a contagem no banco
             contagem_db = session.query(Contagem).filter_by(id=self.contagem.id).first()
@@ -132,7 +113,7 @@ class ContagemScreen(QWidget):
             self.counter_display.set_valor(0)
             self.valor = 0
 
-            QMessageBox.information(self, "Marco", f"Marco criado com {valor_atual} mortes registradas!")
+            QMessageBox.information(self, "Marco", f"Marco criado com {valor_display} mortes registradas!")
 
         finally:
             session.close()

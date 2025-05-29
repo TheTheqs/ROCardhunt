@@ -14,4 +14,4 @@ class Img(QLabel):
             self.setMovie(movie)
             movie.start()
         else:
-            self.setPixmap(QPixmap("assets/img_not_found.png").scaled(120, 120, Qt.AspectRatioMode.KeepAspectRatio))
+            self.setPixmap(QPixmap("assets/image_not_found.png").scaled(120, 120, Qt.AspectRatioMode.KeepAspectRatio))
