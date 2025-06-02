@@ -56,12 +56,12 @@
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\opengl32sw.dll',
    'BINARY'),
-  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
-   'BINARY'),
   ('libssl-3-x64.dll',
    'C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\libssl-3-x64.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
    'BINARY'),
   ('PySide6\\plugins\\tls\\qcertonlybackend.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -74,41 +74,29 @@
   ('libcrypto-3-x64.dll',
    'C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\libcrypto-3-x64.dll',
    'BINARY'),
-  ('PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
+  ('PySide6\\plugins\\tls\\qschannelbackend.dll',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\networkinformation\\qnetworklistmanager.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qtiff.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\tls\\qschannelbackend.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qico.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qico.dll',
    'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qtga.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
   ('PySide6\\plugins\\platforms\\qwindows.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qwebp.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qgif.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qpdf.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -118,33 +106,45 @@
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
-  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+  ('PySide6\\plugins\\imageformats\\qtiff.dll',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
-  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+  ('PySide6\\plugins\\imageformats\\qwbmp.dll',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qjpeg.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qicns.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwbmp.dll',
    'BINARY'),
   ('PySide6\\plugins\\imageformats\\qsvg.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qsvg.dll',
    'BINARY'),
-  ('PySide6\\plugins\\imageformats\\qtga.dll',
+  ('PySide6\\plugins\\platforms\\qoffscreen.dll',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qtga.dll',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qoffscreen.dll',
    'BINARY'),
-  ('PySide6\\plugins\\platforms\\qdirect2d.dll',
+  ('PySide6\\plugins\\imageformats\\qwebp.dll',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforms\\qdirect2d.dll',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qwebp.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\platforminputcontexts\\qtvirtualkeyboardplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qicns.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PySide6\\plugins\\imageformats\\qgif.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\plugins\\imageformats\\qgif.dll',
    'BINARY'),
   ('PySide6\\plugins\\styles\\qwindowsvistastyle.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -250,46 +250,53 @@
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\Matheqs\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-locale-l1-1-0.dll',
    'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-filesystem-l1-1-0.dll',
    'C:\\Program '
    'Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-stdio-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\Matheqs\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('PySide6\\Qt6Core.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
    'BINARY'),
   ('VCRUNTIME140_1.dll',
    'C:\\Users\\Matheqs\\AppData\\Local\\Programs\\Python\\Python311\\VCRUNTIME140_1.dll',
@@ -301,13 +308,6 @@
   ('PySide6\\Qt6Network.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\Qt6Network.dll',
-   'BINARY'),
-  ('PySide6\\Qt6Core.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\Qt6Core.dll',
-   'BINARY'),
-  ('api-ms-win-crt-utility-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
    'BINARY'),
   ('PySide6\\Qt6Gui.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -341,20 +341,16 @@
   ('sqlite3.dll',
    'C:\\Users\\Matheqs\\AppData\\Local\\Programs\\Python\\Python311\\DLLs\\sqlite3.dll',
    'BINARY'),
+  ('PySide6\\pyside6.abi3.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
+   'BINARY'),
   ('PySide6\\VCRUNTIME140.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\VCRUNTIME140.dll',
    'BINARY'),
   ('python3.dll',
    'C:\\Users\\Matheqs\\AppData\\Local\\Programs\\Python\\Python311\\python3.dll',
-   'BINARY'),
-  ('PySide6\\MSVCP140.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
-   'BINARY'),
-  ('PySide6\\pyside6.abi3.dll',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\pyside6.abi3.dll',
    'BINARY'),
   ('PySide6\\VCRUNTIME140_1.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -363,6 +359,10 @@
   ('shiboken6\\shiboken6.abi3.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\shiboken6\\shiboken6.abi3.dll',
+   'BINARY'),
+  ('PySide6\\MSVCP140.dll',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\MSVCP140.dll',
    'BINARY'),
   ('shiboken6\\VCRUNTIME140.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -379,12 +379,12 @@
   ('ucrtbase.dll',
    'C:\\Program Files\\Zulu\\zulu-21\\bin\\ucrtbase.dll',
    'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
   ('PySide6\\MSVCP140_1.dll',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\MSVCP140_1.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-synch-l1-2-0.dll',
    'BINARY'),
   ('PySide6\\Qt6Qml.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -394,89 +394,89 @@
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\Qt6Quick.dll',
    'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+  ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program '
    'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-localization-l1-2-0.dll',
-   'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-localization-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program '
    'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-memory-l1-1-0.dll',
    'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-memory-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program '
    'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-debug-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-string-l1-1-0.dll',
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-synch-l1-1-0.dll',
    'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-synch-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program '
-   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program '
+   'Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Zulu\\zulu-21\\bin\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
   ('PySide6\\Qt6OpenGL.dll',
    'M:\\Matheqs Corp\\Magen '
@@ -494,6 +494,98 @@
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\certifi\\cacert.pem',
    'DATA'),
+  ('PySide6\\translations\\qtbase_fi.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_fa.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_en.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_nn.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ru.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_tr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_zh_CN.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_en.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_zh_TW.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_it.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_gd.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nn.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_de.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ru.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fa.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_tr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ca.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_gd.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ko.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_bg.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_en.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_uk.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
+   'DATA'),
   ('PySide6\\translations\\qt_fr.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_fr.qm',
@@ -502,353 +594,261 @@
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_bg.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_nl.qm',
+  ('PySide6\\translations\\qt_help_es.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sl.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ar.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_tr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_fr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_nn.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_es.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sk.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_hu.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_tr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_da.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_uk.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fa.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fa.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hu.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_da.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_TW.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ja.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_pt_BR.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_tr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pt_BR.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sl.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_sk.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_cs.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_hr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ru.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_pl.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_he.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_uk.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_zh_CN.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_CN.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_zh_TW.qm',
+  ('PySide6\\translations\\qt_help_da.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_nn.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_nn.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_zh_CN.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_lv.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_de.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_lv.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ja.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_sv.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_he.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_de.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
    'DATA'),
   ('PySide6\\translations\\qt_fi.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_fi.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_en.qm',
+  ('PySide6\\translations\\qtbase_it.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_zh_CN.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_CN.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_es.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_ar.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_hr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_gl.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_fi.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_lt.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_bg.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_en.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_en.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_pt_BR.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_en.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_en.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_ar.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ar.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_nn.qm',
+  ('PySide6\\translations\\qt_help_uk.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_uk.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_it.qm',
+  ('PySide6\\translations\\qt_zh_CN.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_it.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_zh_CN.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_help_da.qm',
+  ('PySide6\\translations\\qtbase_zh_TW.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_pl.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ca.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ru.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_hu.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_zh_TW.qm',
    'DATA'),
   ('PySide6\\translations\\qt_help_cs.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_cs.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_nl.qm',
+  ('PySide6\\translations\\qt_help_pl.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pl.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_ko.qm',
+  ('PySide6\\translations\\qt_tr.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_gd.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_hr.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pl.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_zh_TW.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_sk.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_bg.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_bg.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_ko.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_cs.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ca.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_ko.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_uk.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_uk.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_de.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_de.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_es.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_es.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_pt_PT.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
-   'DATA'),
-  ('PySide6\\translations\\qtbase_gd.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PySide6\\translations\\qt_help_it.qm',
-   'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_tr.qm',
    'DATA'),
   ('PySide6\\translations\\qt_gl.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_gl.qm',
    'DATA'),
+  ('PySide6\\translations\\qtbase_pl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nn.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_nn.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_da.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_da.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_nl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_nl.qm',
+   'DATA'),
   ('PySide6\\translations\\qt_ca.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hu.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_fr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_sk.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_ja.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_it.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lt.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ar.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ar.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_nl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_cs.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ko.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sk.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_uk.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_uk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_lv.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_da.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_da.qm',
    'DATA'),
   ('PySide6\\translations\\qtbase_ja.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ja.qm',
    'DATA'),
-  ('PySide6\\translations\\qtbase_it.qm',
+  ('PySide6\\translations\\qt_sv.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_it.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_sv.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_ru.qm',
+  ('PySide6\\translations\\qt_ar.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ru.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ar.qm',
    'DATA'),
-  ('PySide6\\translations\\qt_fa.qm',
+  ('PySide6\\translations\\qt_ko.qm',
    'M:\\Matheqs Corp\\Magen '
-   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_fa.qm',
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_ko.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_cs.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_de.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_he.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_he.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_bg.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_bg.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ja.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ja.qm',
    'DATA'),
   ('PySide6\\translations\\qt_nl.qm',
    'M:\\Matheqs Corp\\Magen '
    'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_nl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_ru.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_gl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_BR.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_es.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_fr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_pt_BR.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_sl.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_es.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_es.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_hr.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_hr.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_ca.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_ca.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_pt_BR.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_pt_BR.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_lv.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_zh_TW.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_zh_TW.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_sk.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_pt_PT.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_pt_PT.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_hu.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qt_help_hu.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_de.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PySide6\\translations\\qtbase_he.qm',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PySide6\\translations\\qtbase_he.qm',
    'DATA'),
   ('base_library.zip',
    'M:\\Matheqs Corp\\ROCardHunt\\build\\main\\base_library.zip',

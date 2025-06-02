@@ -12,6 +12,7 @@ from database.models.contagem import Contagem
 
 import threading
 import keyboard
+import math
 
 
 class ContagemScreen(QWidget):
@@ -30,8 +31,15 @@ class ContagemScreen(QWidget):
         self.img = Img()
         layout.addWidget(self.img)
 
+        self.label_item = QLabel("🎯 Item: ??? (Chance: ???)")
+        layout.addWidget(self.label_item)
+
         self.counter_display = CounterDisplay()
         layout.addWidget(self.counter_display)
+
+        self.chance_display = CounterDisplay()
+        layout.addWidget(QLabel("📈 Chance de já ter dropado:"))
+        layout.addWidget(self.chance_display)
 
         btn_marco = CustomButton("🏁 Criar Marco", self.criar_marco)
         layout.addWidget(btn_marco)
@@ -40,8 +48,7 @@ class ContagemScreen(QWidget):
 
         self.setLayout(layout)
 
-        # Escutador global de F1
-        threading.Thread(target=self._escutar_f1, daemon=True).start()
+        threading.Thread(target=self._escutar_, daemon=True).start()
 
     def carregar_contagem(self, contagem_id: int):
         session = SessionLocal()
@@ -51,8 +58,16 @@ class ContagemScreen(QWidget):
         if self.contagem:
             self.valor = self.contagem.count
             self.counter_display.set_valor(self.valor)
+            self._atualizar_chance()
 
-            # Tenta carregar gif local, senão busca online
+            # Atualiza nome do item e chance fixa
+            try:
+                chance_formatada = f"{float(self.contagem.chance):.2f}%"
+            except (TypeError, ValueError):
+                chance_formatada = "??"
+
+            self.label_item.setText(f"🎯 Item: {self.contagem.item} (Chance: {chance_formatada})")
+
             gif_path = os.path.join("assets", f"{self.contagem.mob}.gif")
             if not os.path.exists(gif_path):
                 gif_path = GetGifService.get_gif(self.contagem.mob)
@@ -63,7 +78,7 @@ class ContagemScreen(QWidget):
                 self.img = Img(gif_path=gif_path)
                 self.layout().insertWidget(1, self.img)
 
-    def _escutar_f1(self):
+    def _escutar_(self):
         keyboard.add_hotkey("F1", lambda: self._incrementar())
 
     def _incrementar(self):
@@ -72,9 +87,9 @@ class ContagemScreen(QWidget):
 
         self.contagem.count += 1
         self.counter_display.set_valor(self.contagem.count)
+        self._atualizar_chance()
 
         # Persistência no banco
-        from database.engine import SessionLocal
         session = SessionLocal()
         try:
             contagem_db = session.query(Contagem).filter_by(id=self.contagem.id).first()
@@ -84,6 +99,22 @@ class ContagemScreen(QWidget):
         finally:
             session.close()
 
+    def _atualizar_chance(self):
+        if not self.contagem:
+            return
+
+        try:
+            tentativas = self.contagem.count
+            chance_porcentagem = float(self.contagem.chance)  # ex: 0.05 representa 0.05%
+            chance_unitaria = chance_porcentagem / 100  # converte para decimal ex: 0.0005
+
+            prob = 1 - math.pow((1 - chance_unitaria), tentativas)
+            prob_percent = prob * 100
+
+            self.chance_display.set_valor(f"{prob_percent:.2f}%")  # type: ignore
+        except (TypeError, ValueError):
+            self.chance_display.set_valor("??")  # type: ignore
+
     def criar_marco(self):
         from database.models.marco import Marco
         from database.models.contagem import Contagem
@@ -91,30 +122,27 @@ class ContagemScreen(QWidget):
 
         session = SessionLocal()
         try:
-            # Armazena o valor atual ANTES de zerar
             valor_atual = self.valor
             valor_display = 0
-            # Cria o novo marco com o valor atual
+
             if self.contagem is not None:
                 marco = Marco.create(self=Marco(), contagem=self.contagem)
                 session.add(marco)
                 valor_display = marco.count
                 session.commit()
 
-            # Reseta a contagem no banco
             contagem_db = session.query(Contagem).filter_by(id=self.contagem.id).first()
             if contagem_db:
                 contagem_db.count = 0
-                self.contagem.count = 0  # Atualiza a cópia local
+                self.contagem.count = 0
 
             session.commit()
 
-            # Atualiza a interface
             self.counter_display.set_valor(0)
+            self.chance_display.set_valor("0.00%")  # type: ignore
             self.valor = 0
 
             QMessageBox.information(self, "Marco", f"Marco criado com {valor_display} mortes registradas!")
 
         finally:
             session.close()
-

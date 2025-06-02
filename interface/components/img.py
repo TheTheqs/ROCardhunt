@@ -3,6 +3,7 @@ from PySide6.QtGui import QMovie, QPixmap
 from PySide6.QtCore import Qt
 import os
 
+
 class Img(QLabel):
     def __init__(self, gif_path=None):
         super().__init__()
