@@ -1,0 +1,76 @@
+('M:\\Matheqs Corp\\ROCardHunt\\build\\ROCardHunter\\ROCardHunter.exe',
+ False,
+ False,
+ True,
+ ['M:\\Matheqs Corp\\ROCardHunt\\assets\\icon.ico'],
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<dependency>\n    <dependentAssembly>\n      <assemblyIdentity type="win32'
+ b'" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchit'
+ b'ecture="*" publicKeyToken="6595b64144ccf1df" language="*"/>\n    </depend'
+ b'entAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'M:\\Matheqs Corp\\ROCardHunt\\build\\ROCardHunter\\ROCardHunter.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'M:\\Matheqs Corp\\ROCardHunt\\build\\ROCardHunter\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'M:\\Matheqs Corp\\ROCardHunt\\build\\ROCardHunter\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'M:\\Matheqs '
+   'Corp\\ROCardHunt\\build\\ROCardHunter\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'M:\\Matheqs '
+   'Corp\\ROCardHunt\\build\\ROCardHunter\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'M:\\Matheqs '
+   'Corp\\ROCardHunt\\build\\ROCardHunter\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'M:\\Matheqs '
+   'Corp\\ROCardHunt\\build\\ROCardHunter\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pyside6',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pyside6.py',
+   'PYSOURCE'),
+  ('main', 'M:\\Matheqs Corp\\ROCardHunt\\main.py', 'PYSOURCE')],
+ [],
+ False,
+ False,
+ 1748892734,
+ [('runw.exe',
+   'M:\\Matheqs Corp\\Magen '
+   'System\\nomad\\ROCardHunt\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\runw.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\Matheqs\\AppData\\Local\\Programs\\Python\\Python311\\python311.dll')
